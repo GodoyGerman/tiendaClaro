@@ -741,7 +741,7 @@
               <av:Size x:Key="ShapeSize">200,66</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Flujo T.Credito Celular" sap:VirtualizedContainerService.HintSize="873,7454" sap2010:WorkflowViewState.IdRef="Sequence_40">
+          <Sequence DisplayName="Flujo T.Credito Celular" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_40">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -938,7 +938,7 @@
                         </ui:CursorPosition>
                       </ui:Click.CursorPosition>
                       <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="0dc1ad20674eb67c106199acb5c1d167" Selector="&lt;webctrl parentid='add2CartButton_76700' tag='SPAN' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="c89cd15fd5eabb3ba3b377e07b15ccaf" Selector="&lt;webctrl parentid='add2CartButton_67505' tag='SPAN' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -4593,19 +4593,19 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Flujo PSE Celular" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_37">
+      <Sequence DisplayName="Flujo PSE Celular" sap:VirtualizedContainerService.HintSize="873,5450" sap2010:WorkflowViewState.IdRef="Sequence_37">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Private: Abrir Firefox" sap:VirtualizedContainerService.HintSize="831,5348" sap2010:WorkflowViewState.IdRef="OpenBrowser_10" Url="google.com">
+        <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Private: Abrir Firefox" sap:VirtualizedContainerService.HintSize="831,5358" sap2010:WorkflowViewState.IdRef="OpenBrowser_10" Url="google.com">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="797,5247" sap2010:WorkflowViewState.IdRef="Sequence_36">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="797,5257" sap2010:WorkflowViewState.IdRef="Sequence_36">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="VarBanderaAutenticacion" />
                 </Sequence.Variables>
@@ -4767,7 +4767,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6f3660d-b9df-463a-8e04-c2c8a007d78b" InformativeScreenshot="72937518519e759afee0b714742d2246" Selector="&lt;webctrl parentid='facetButton_5_2551_4955_5_Apple' tag='DIV' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6f3660d-b9df-463a-8e04-c2c8a007d78b" InformativeScreenshot="1c94869e27c61d3602dd77fdfae5d1e6" Selector="&lt;webctrl parentid='facetButton_5_2551_4955_9_Nokia' tag='DIV' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -4790,7 +4790,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="1a86d72f939a4a6d33523dc8683c417a" Selector="&lt;webctrl parentid='add2CartButton_66464' tag='SPAN' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="031532b8e767f003debf400114706cc8" Selector="&lt;webctrl parentid='add2CartButton_76526' tag='SPAN' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -5178,19 +5178,9 @@
                     </ui:Target>
                   </ui:Click.Target>
                 </ui:Click>
-                <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'botón  Cerrar'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_207" KeyModifiers="None" MouseButton="BTN_LEFT">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition Position="Center">
-                      <ui:CursorPosition.OffsetX>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetX>
-                      <ui:CursorPosition.OffsetY>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetY>
-                    </ui:CursorPosition>
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="18c5db2e-f6a2-45bf-a3ab-9f7d070b71d3" InformativeScreenshot="18c107012b5836184201d8685aaabc2b" Selector="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología - M*' /&gt;&lt;uia name='Pestañas del navegador' role='barra de herramientas' /&gt;&lt;uia name='Cerrar' role='botón' /&gt;">
+                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="755,116" sap2010:WorkflowViewState.IdRef="SendHotkey_58" Key="w" KeyModifiers="Ctrl">
+                  <ui:SendHotkey.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="2ed4539e-afd3-4c78-8596-f3eb526e60fd">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -5198,8 +5188,8 @@
                         <InArgument x:TypeArguments="ui:WaitForReady" />
                       </ui:Target.WaitForReady>
                     </ui:Target>
-                  </ui:Click.Target>
-                </ui:Click>
+                  </ui:SendHotkey.Target>
+                </ui:SendHotkey>
               </Sequence>
             </ActivityAction>
           </ui:OpenBrowser.Body>
