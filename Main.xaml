@@ -42,7 +42,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="26">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -69,6 +69,13 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -99,7 +106,7 @@
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
           <av:Size x:Key="ShapeSize">60,75</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,100 210,100</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 240,107.5 240,47.5 110,47.5 110,67</av:PointCollection>
           <x:Double x:Key="Height">918</x:Double>
           <x:Double x:Key="Width">660</x:Double>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -373,7 +380,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6f3660d-b9df-463a-8e04-c2c8a007d78b" InformativeScreenshot="f714292a5cdb4e07d97d3c619e6b5d7f" Selector="&lt;html app='firefox.exe' title='Compra Celulares o Smartphone en la Tienda Online Claro Colombia' /&gt;&lt;webctrl parentid='facetButton_5_2551_4955_10_Apple' tag='DIV' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6f3660d-b9df-463a-8e04-c2c8a007d78b" InformativeScreenshot="6aa0a83fe62b303a361ff29ffda19baa" Selector="&lt;html app='firefox.exe' title='Compra Celulares o Smartphone en la Tienda Online Claro Colombia' /&gt;&lt;webctrl parentid='facetButton_5_2551_4955_9_Apple' tag='DIV' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1239,7 +1246,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266a9c9b-4947-4056-a527-80d6904f702b" InformativeScreenshot="dde84b0ece5382223205c0aa789fccae" Selector="&lt;webctrl parentid='add22CartButton' tag='SPAN' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266a9c9b-4947-4056-a527-80d6904f702b" InformativeScreenshot="86930abc2c2a69b0b5692c16e6374fe1" Selector="&lt;html app='firefox.exe' title='Compra Celulares o Smartphone en la Tienda Online Claro Colombia' /&gt;&lt;webctrl parentid='add22CartButton' tag='SPAN' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1261,7 +1268,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d38464aa-4f6a-40fa-9a8a-13d75346b2c9" InformativeScreenshot="055f6b364f6cf9f5d7fa67824005cecd" Selector="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Comprar &amp;gt; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='guestShopperContinue' tag='DIV' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d38464aa-4f6a-40fa-9a8a-13d75346b2c9" InformativeScreenshot="055f6b364f6cf9f5d7fa67824005cecd" Selector="&lt;html app='firefox.exe' title='Mi carrito' /&gt;&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Comprar &amp;gt; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='guestShopperContinue' tag='DIV' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1284,7 +1291,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b961ba6c-e5ef-47a8-8b1b-21c2c79a5b4f" InformativeScreenshot="bf0d81f1b45a7a35f663c323ebe2b6db" Selector="&lt;webctrl parentid='termCondSwitch' tag='SPAN' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b961ba6c-e5ef-47a8-8b1b-21c2c79a5b4f" InformativeScreenshot="bf0d81f1b45a7a35f663c323ebe2b6db" Selector="&lt;html app='firefox.exe' title='Claro - Visualización de envío y facturación' /&gt;&lt;webctrl parentid='termCondSwitch' tag='SPAN' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1306,7 +1313,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdfdf7de-402d-40ff-bf3a-871a40b3205a" InformativeScreenshot="5076b052bb0288b0ab3e70b7dd5e9afe" Selector="&lt;webctrl parentid='tarjetasContent' tag='A' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdfdf7de-402d-40ff-bf3a-871a40b3205a" InformativeScreenshot="5076b052bb0288b0ab3e70b7dd5e9afe" Selector="&lt;html app='firefox.exe' title='Claro - Visualización de envío y facturación' /&gt;&lt;webctrl parentid='tarjetasContent' tag='A' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1329,7 +1336,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c7bb0a72-72d9-4080-85bb-8d98adbce45d" InformativeScreenshot="b8948f48150b1df262b2675bcfa7ac5e" Selector="&lt;webctrl tag='SELECT' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c7bb0a72-72d9-4080-85bb-8d98adbce45d" InformativeScreenshot="b8948f48150b1df262b2675bcfa7ac5e" Selector="&lt;html app='firefox.exe' title='Portal Pagos Claro' /&gt;&lt;webctrl tag='SELECT' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1353,7 +1360,7 @@
                           </ui:SendHotkey>
                           <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  TITULAR'" sap:VirtualizedContainerService.HintSize="755,134" sap2010:WorkflowViewState.IdRef="TypeInto_78" Text="[VarNombrePse]">
                             <ui:TypeInto.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="110b1621-3944-4f78-b6a0-a6e3c9b4a7a7" InformativeScreenshot="058111d917f03ff86f5fbad8e73ca2ee" Selector="&lt;webctrl tag='INPUT' type='text' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="110b1621-3944-4f78-b6a0-a6e3c9b4a7a7" InformativeScreenshot="058111d917f03ff86f5fbad8e73ca2ee" Selector="&lt;html app='firefox.exe' title='Portal Pagos Claro' /&gt;&lt;webctrl tag='INPUT' type='text' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1375,7 +1382,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a28c1eaa-25dd-4c3b-98d7-bc5eadcd7679" InformativeScreenshot="254306d298aa7a6124da5ef86f913f7b" Selector="&lt;webctrl id='TIPO_CLIENTE' tag='SELECT' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a28c1eaa-25dd-4c3b-98d7-bc5eadcd7679" InformativeScreenshot="254306d298aa7a6124da5ef86f913f7b" Selector="&lt;html app='firefox.exe' title='Portal Pagos Claro' /&gt;&lt;webctrl id='TIPO_CLIENTE' tag='SELECT' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -2060,7 +2067,7 @@
                             </ui:TypeInto>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_52" Text="[VarPass]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ac4aabab-d189-4bda-b2ff-1454a6a2a229" InformativeScreenshot="b5e876ace8d340e11eb759ac972e86fd" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ac4aabab-d189-4bda-b2ff-1454a6a2a229" InformativeScreenshot="f6e65b36d1e39c6c8d420d58e185d023" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -2082,7 +2089,7 @@
                                 </ui:CursorPosition>
                               </ui:Click.CursorPosition>
                               <ui:Click.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52662e02-5e5f-43a0-bf96-16d9c91b3d3d" InformativeScreenshot="12001542ccf75ec39f1029204a717dcf" Selector="&lt;webctrl parentid='loginButton' tag='SPAN' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52662e02-5e5f-43a0-bf96-16d9c91b3d3d" InformativeScreenshot="ba1063e218431fa31d163190a7378c1c" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl id='loginButton' tag='DIV' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -4142,7 +4149,7 @@
                       <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="755,22" sap2010:WorkflowViewState.IdRef="Delay_78" />
                       <ui:UiElementExists DisplayName="Element Exists 'Baner'" Exists="[VarBanderaBaner]" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="UiElementExists_24">
                         <ui:UiElementExists.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3d21b65a-1cbb-4467-8b0b-91c5d1688142" InformativeScreenshot="c4fd9b0c6f9dd7e7d83c1c0197060b40" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl src='https://claroco.api.useinsider.com/api/info/frame?id=563&amp;amp;version*' tag='IFRAME' /&gt;&lt;webctrl tag='IMG' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3d21b65a-1cbb-4467-8b0b-91c5d1688142" InformativeScreenshot="e8b423e4900d36ae124c316569e7571b" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl src='https://claroco.api.useinsider.com/api/info/frame?id=595&amp;amp;version*' tag='IFRAME' /&gt;&lt;webctrl tag='IMG' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -4172,7 +4179,7 @@
                                 </ui:CursorPosition>
                               </ui:Click.CursorPosition>
                               <ui:Click.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e0570758-811d-4f1a-8bec-13734f0ba136" InformativeScreenshot="55416f8ce3a1e78697ad734fb5021cd8" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl src='https://claroco.api.useinsider.com/api/info/frame?id=563&amp;amp;version*' tag='IFRAME' /&gt;&lt;webctrl tag='I' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e0570758-811d-4f1a-8bec-13734f0ba136" InformativeScreenshot="4ccf673f6fe1d33706a75e390717286d" Selector="&lt;html app='firefox.exe' title='Tienda Online Claro Colombia | Compra Celulares y Tecnología' /&gt;&lt;webctrl src='https://claroco.api.useinsider.com/api/info/frame?id=595&amp;amp;version*' tag='IFRAME' /&gt;&lt;webctrl tag='I' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -4386,7 +4393,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="6c3e6bddd48fdab3fa3336eebec2f6f3" Selector="&lt;html app='firefox.exe' title='Televisores a crédito o de contado | Tienda Online Claro Colombia' /&gt;&lt;webctrl parentid='add2CartButton_80238' tag='SPAN' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="453dda2e-0125-4a95-a340-e823d24cdc3a" InformativeScreenshot="8e96ea68df719020ea22945edcbaff9b" Selector="&lt;html app='firefox.exe' title='Televisores a crédito o de contado | Tienda Online Claro Colombia' /&gt;&lt;webctrl parentid='add2CartButton_80240' tag='SPAN' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -4408,7 +4415,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266a9c9b-4947-4056-a527-80d6904f702b" InformativeScreenshot="fb24031572b68a6de283ac96e7a5e88f" Selector="&lt;html app='firefox.exe' title='TV LG 50&amp;quot; LED UP7750PSB con Parlante PL2 | Tienda Claro' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span' id='productPageAdd2CartContent1' tag='SPAN' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266a9c9b-4947-4056-a527-80d6904f702b" InformativeScreenshot="fb24031572b68a6de283ac96e7a5e88f" Selector="&lt;html app='firefox.exe' title='TV LG 55&amp;quot; LED UP7755PSB con Parlante PL2 | Tienda Claro' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span' id='productPageAdd2CartContent1' tag='SPAN' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -4430,7 +4437,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d38464aa-4f6a-40fa-9a8a-13d75346b2c9" InformativeScreenshot="055f6b364f6cf9f5d7fa67824005cecd" Selector="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Comprar &amp;gt; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='guestShopperContinue' tag='DIV' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d38464aa-4f6a-40fa-9a8a-13d75346b2c9" InformativeScreenshot="7163f8882ecf0b771ebb026aea9393be" Selector="&lt;html app='firefox.exe' title='Mi carrito' /&gt;&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Comprar &amp;gt; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='guestShopperContinue' tag='DIV' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -5261,60 +5268,79 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Abrir navegador" sap:VirtualizedContainerService.HintSize="739,778" sap2010:WorkflowViewState.IdRef="OpenBrowser_28" Url="google.com">
-            <ui:OpenBrowser.Body>
-              <ActivityAction x:TypeArguments="x:Object">
-                <ActivityAction.Argument>
-                  <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="705,677" sap2010:WorkflowViewState.IdRef="Sequence_108">
-                  <Sequence.Variables>
-                    <Variable x:TypeArguments="x:Boolean" Name="ErrorTienda" />
-                  </Sequence.Variables>
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To" sap:VirtualizedContainerService.HintSize="663,59" sap2010:WorkflowViewState.IdRef="NavigateTo_34" Url="tienda.claro.com.co" />
-                  <ui:UiElementExists DisplayName="Elemento existente 'BODY'" Exists="[ErrorTienda]" sap:VirtualizedContainerService.HintSize="663,106" sap2010:WorkflowViewState.IdRef="UiElementExists_31">
-                    <ui:UiElementExists.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="673e8214-a145-45ac-b5d1-80715dd0c2f9" InformativeScreenshot="30e38f21bbf14977bd60c49668e01a33" Selector="&lt;html app='firefox.exe' title='503 Service Temporarily Unavailable' /&gt;&lt;webctrl tag='BODY' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:UiElementExists.Target>
-                  </ui:UiElementExists>
-                  <If Condition="[ErrorTienda]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="663,340" sap2010:WorkflowViewState.IdRef="If_34">
-                    <If.Then>
-                      <Sequence sap:VirtualizedContainerService.HintSize="376,183" sap2010:WorkflowViewState.IdRef="Sequence_109">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Error" Message="[&quot;Error&quot;]" />
-                      </Sequence>
-                    </If.Then>
-                    <If.Else>
-                      <Sequence sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_110">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:RefreshBrowser Browser="{x:Null}" DisplayName="Actualizar navegador" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="RefreshBrowser_2" />
-                      </Sequence>
-                    </If.Else>
-                  </If>
-                </Sequence>
-              </ActivityAction>
-            </ui:OpenBrowser.Body>
-          </ui:OpenBrowser>
+          <Sequence DisplayName="Tienda en mantenimiento" sap:VirtualizedContainerService.HintSize="680,1146" sap2010:WorkflowViewState.IdRef="Sequence_126">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Abrir navegador" sap:VirtualizedContainerService.HintSize="638,1054" sap2010:WorkflowViewState.IdRef="OpenBrowser_30" Url="google.com">
+              <ui:OpenBrowser.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="604,953" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="ErrorTienda" />
+                      <Variable x:TypeArguments="x:Boolean" Name="mantenimientoTienda" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InterruptibleDoWhile Condition="[ErrorTienda = ErrorTienda]" DisplayName="Hacer mientras" sap:VirtualizedContainerService.HintSize="562,861" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2">
+                      <ui:InterruptibleDoWhile.Body>
+                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="526,696" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To" sap:VirtualizedContainerService.HintSize="484,59" sap2010:WorkflowViewState.IdRef="NavigateTo_36" Url="tienda.claro.com.co" />
+                          <ui:UiElementExists DisplayName="Elemento existente 'BODY'" Exists="[ErrorTienda]" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="UiElementExists_43">
+                            <ui:UiElementExists.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="673e8214-a145-45ac-b5d1-80715dd0c2f9" InformativeScreenshot="30e38f21bbf14977bd60c49668e01a33" Selector="&lt;html app='firefox.exe' title='503 Service Temporarily Unavailable' /&gt;&lt;webctrl tag='BODY' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:UiElementExists.Target>
+                          </ui:UiElementExists>
+                          <If Condition="[ErrorTienda]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="484,359" sap2010:WorkflowViewState.IdRef="If_38">
+                            <If.Then>
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,183" sap2010:WorkflowViewState.IdRef="Sequence_122">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info" Message="[&quot;Error Tienda&quot;]" />
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_123">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                      </ui:InterruptibleDoWhile.Body>
+                    </ui:InterruptibleDoWhile>
+                  </Sequence>
+                </ActivityAction>
+              </ui:OpenBrowser.Body>
+            </ui:OpenBrowser>
+          </Sequence>
         </Sequence>
       </FlowStep>
       <FlowStep>
@@ -5324,7 +5350,7 @@
             <av:Size x:Key="ShapeSize">200,66</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_90">
+        <Sequence DisplayName="Error Login" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_90">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -5626,7 +5652,7 @@
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Flowchart DisplayName="Diagrama de flujo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_5">
+        <Flowchart DisplayName="Precios" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -5646,7 +5672,7 @@
                 <av:Size x:Key="ShapeSize">200,66</av:Size>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Extracción de datos" sap:VirtualizedContainerService.HintSize="594,1714" sap2010:WorkflowViewState.IdRef="Sequence_102">
+            <Sequence DisplayName="Extracción de datos" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_102">
               <Sequence.Variables>
                 <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtraerTablaDeDatos" />
               </Sequence.Variables>
@@ -5803,7 +5829,7 @@
                 <av:Size x:Key="ShapeSize">200,66</av:Size>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Tienda en mantenimiento" sap:VirtualizedContainerService.HintSize="680,1146" sap2010:WorkflowViewState.IdRef="Sequence_114">
+            <Sequence DisplayName="Tienda en mantenimiento" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_114">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -5826,7 +5852,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:InterruptibleDoWhile DisplayName="Hacer mientras" sap:VirtualizedContainerService.HintSize="562,861" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                      <ui:InterruptibleDoWhile Condition="[mantenimientoTienda = mantenimientoTienda]" DisplayName="Hacer mientras" sap:VirtualizedContainerService.HintSize="562,861" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
                         <ui:InterruptibleDoWhile.Body>
                           <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="526,696" sap2010:WorkflowViewState.IdRef="Sequence_116">
                             <sap:WorkflowViewStateService.ViewState>
@@ -5870,9 +5896,6 @@
                             </If>
                           </Sequence>
                         </ui:InterruptibleDoWhile.Body>
-                        <ui:InterruptibleDoWhile.Condition>
-                          <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="mantenimientoTienda = mantenimientoTienda" />
-                        </ui:InterruptibleDoWhile.Condition>
                       </ui:InterruptibleDoWhile>
                     </Sequence>
                   </ActivityAction>
@@ -5881,6 +5904,42 @@
             </Sequence>
           </FlowStep>
         </Flowchart>
+      </FlowStep>
+      <FlowStep>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">80,444.02</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clic 'BUTTON  logonButton'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_466" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click.CursorPosition>
+            <ui:CursorPosition Position="Center">
+              <ui:CursorPosition.OffsetX>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetX>
+              <ui:CursorPosition.OffsetY>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetY>
+            </ui:CursorPosition>
+          </ui:Click.CursorPosition>
+          <ui:Click.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ae3fb778-a5eb-40c4-a419-d63917fe56d3" InformativeScreenshot="1175aebd19960c2ebecfa70f8784fcc5" Selector="&lt;html title='Conexión de WebSphere Commerce Accelerator' /&gt;&lt;webctrl tag='BUTTON' /&gt;">
+              <ui:Target.TimeoutMS>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:Target.TimeoutMS>
+              <ui:Target.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady" />
+              </ui:Target.WaitForReady>
+            </ui:Target>
+          </ui:Click.Target>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:Click>
       </FlowStep>
     </Flowchart>
   </Sequence>
